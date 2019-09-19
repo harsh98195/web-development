@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module 2</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:white;
+}
+.container{
+    
+    display: grid;
+    justify-items: center;
+    justify-content:center;
+}
+
+#box {
+  background-color:pink;
+ 
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  overflow: hidden;
+  font-weight: bold;
+  float: left;
+  position: relative;
+  
+  padding: 20px;
+}
+#content {
+  background-color: gray /* green */
+  text-emphasis:none;
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.space{
+    margin:10px;
+@media (max-width: 767px;){
+    #box{
+        max-width:100%;
+        height: 500px;
+        margin:20px;
+        
+    }
+    h1{
+        text-align:left;
+    }
+}
+    
+}
+    
+
+}
+</style>
+</head>
+<body>
+
+<h1>OUR MENU</h1>
+<div class="container">
+    <div class="wrap">
+<div id="box" class="space">
+    <p>CHICKEN</p>
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+  </div>
+  
+</div>
+<div id="box" class="space"style="position: relative">
+        <p>BEEF</p>
+      <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+      </div>
+    </div>
+    <div id="box" class="space">
+            <p>SUSHI</p>
+          <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+          </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
